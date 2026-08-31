@@ -28,10 +28,12 @@ python -m pip install -e '.[vision]'
 
 ```bash
 nexumi-build-marker \
-  --sticker-pdf '/home/charlie/Downloads/右手_V4_0822彩色三角贴片_A4_100pct.pdf' \
-  --step '/home/charlie/Downloads/上盖2.stp' \
+  --sticker-pdf 'assets/source/右手_V4_0822彩色三角贴片_A4_100pct.pdf' \
+  --step 'assets/source/上盖2.stp' \
   --output outputs/right_hand_marker.json
 ```
+
+仓库的 `assets/source/` 包含本项目使用的原始右手贴纸 PDF 和对应 STEP；不包含左手设计文件。
 
 当前右手设计文件的自动匹配结果：
 
