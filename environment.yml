@@ -1,0 +1,12 @@
+name: nexumi-right-hand-pose
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Explicit no-VTK build: STEP/BRep only, avoids the 700+ MB visualization stack.
+  - pythonocc-core=7.9.3=novtk_h266f5f3_103
+  - numpy>=2.0
+  - pip
+  - pytest>=8.0
+  - pip:
+      - -e .

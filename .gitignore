@@ -1,0 +1,7 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+outputs/*
+!outputs/right_hand_marker.json
+!outputs/right_hand_marker_views.svg
