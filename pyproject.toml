@@ -25,6 +25,7 @@ nexumi-render-marker = "nexumi_marker_pose.render_marker_views:main"
 nexumi-estimate-pose = "nexumi_marker_pose.inspect_pose:main"
 nexumi-track-sequence = "nexumi_marker_pose.track_sequence:main"
 nexumi-view-trajectories = "nexumi_marker_pose.trajectory_viewer:main"
+nexumi-align-vio-ego = "nexumi_marker_pose.align_vio_to_ego:main"
 
 [build-system]
 requires = ["hatchling"]
